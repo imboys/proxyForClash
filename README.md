@@ -1,6 +1,8 @@
 # proxyForClash
-هدف از ارائه این لیست از سرور ها مقابله با بد افزار هاس  لینک 
-دانلود برای اندروید : https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=en_US  
+هدف از ارائه این لیست از سرور ها مقابله با بد افزار هاس  لینک
+
+دانلود برای اندروید : https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=en_US 
+
 ویندوز : https://github.com/Fndroid/clash_for_windows_pkg/releases
 
 فقط کافیه به بخش پروفایل نرم افزار برید و سرور هارو ایمپورت کنید 
