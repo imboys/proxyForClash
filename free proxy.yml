@@ -71,6 +71,31 @@ proxies:
   - {name: Canada 🇨🇦 7, server: v2-06.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 59ee7a4c-0d8e-462b-a75a-3d66071db8c7, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-06.ssrsub.xyz}
   - {name: Canada 🇨🇦 8, server: v2-11.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 68362542-195b-42ad-883d-5b17aaf365de, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-11.ssrsub.xyz}
   - {name: Canada 🇨🇦 9, server: v2-12.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 34a4d1d9-02fe-4ca7-af25-610b593dd506, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-12.ssrsub.xyz}
+  - {name: Canada 🇨🇦 10, server: ss-01.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 11, server: ss-02.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 12, server: ss-03.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 13, server: ss-04.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 14, server: ss-05.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 15, server: ss-07.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 16, server: ss-08.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 17, server: ss-09.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 18, server: ss-13.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 19, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 20, server: ss-15.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 21, server: ss-16.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 22, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 23, server: ss-18.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 24, server: ss-19.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 25, server: ss-20.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 26, server: ss-23.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 27, server: ss-24.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 28, server: ss-27.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 29, server: ss-28.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 30, server: ss-29.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 31, server: ss-32.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 32, server: ss-33.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 33, server: ss-37.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+
   #endregion Canada
   #region Croatia
   - {name: Croatia 🇭🇷 1, server: 89.164.99.109, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
@@ -231,20 +256,8 @@ proxies:
   - {name: United States 🇺🇸 61, server: 209.58.128.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
   - {name: United States 🇺🇸 62, server: 148.72.174.48, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
   - {name: United States 🇺🇸 63, server: 148.72.174.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 64, server: 107.181.166.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 65, server: h1.coding996.com, port: 443, type: vmess, cipher: auto, uuid: 9ae47470-a346-472f-842d-cfe3453e2018, alterId: 64, tls: true, network: ws,ws-path: /v2ray, Host:}
-  - {name: United States 🇺🇸 66, server: h2.coding996.com, port: 443, type: vmess, cipher: auto, uuid: 2e199875-f955-45f1-8eee-d843edc3d618, alterId: 64, tls: true, network: ws,ws-path: /v2ray, Host:}
-  - {name: United States 🇺🇸 67, server: h4.coding996.com, port: 443, type: vmess, cipher: auto, uuid: e8f9f061-c481-4c4a-8e7a-68cd062c1bb9, alterId: 64, tls: true, network: ws,ws-path: /v2ray, Host:}
-  - {name: United States 🇺🇸 68, server: 142.4.108.232, port: 443, type: vmess, cipher: auto, uuid: 95ccdad7-0be4-4d76-a5bd-84aa2701ca08, alterId: 64, tls: true, network: ws,ws-path: /footers, Host: }
-  - {name: United States 🇺🇸 69, server: 142.4.108.229, port: 443, type: vmess, cipher: auto, uuid: 47d03581-c5c9-4764-bbd6-d4e3733b2f7a, alterId: 64, tls: true, network: ws,ws-path: /footers, Host: www.085298926.xyz}
-  - {name: United States 🇺🇸 70, server: 23.225.57.202, port: 443, type: vmess, cipher: auto, uuid: e2266c08-96aa-4ccb-b918-163db05abffa, alterId: 64, tls: true, network: ws,ws-path: /footers, Host: www.4198659.xyz}
-  - {name: United States 🇺🇸 71, server: 192.241.219.51, port: 19025, type: ss, cipher: aes-256-gcm, password: isx.yt-29986638}
-  - {name: United States 🇺🇸 72, server: a04cd1fc2f7f9e95f.awsglobalaccelerator.com, port: 8080, type: vmess, cipher: auto, uuid: e8aa4e5c-859a-35e1-ae65-eceefecd5c15, alterId: 2, network: ws,ws-path: /index, Host: downloadwindowsupdate.com}
-  - {name: United States 🇺🇸 73, server: 97.64.83.205, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: HA3nsoB0Gn4C}
-  - {name: United States 🇺🇸 74, server: 159.65.99.228, port: 13898, type: ss, cipher: aes-256-cfb, password: ssx.re-17369639}
-  - {name: United States 🇺🇸 75, server: 192.241.219.168, port: 17608, type: ss, cipher: aes-256-gcm, password: isx.yt-07839244}
-  - {name: United States 🇺🇸 76, server: 192.241.219.71, port: 14454, type: ss, cipher: aes-256-gcm, password: isx.yt-61025032}
-  - {name: United States 🇺🇸 77, server: 172.104.161.54, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 64, server: 97.64.83.205, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: HA3nsoB0Gn4C}
+  - {name: United States 🇺🇸 65, server: c.kitslabs.com, port: 443, type: vmess, cipher: chacha20-poly1305,uuid: 95137857-70fa-4ac8-8f90-4220aeb662cf, alterId: 0, network: ws,ws-path: /v2, Host: ,tls: true }
   #endregion United States
   #region Switzerland
   - {name: Switzerland 🇨🇭 1, server: 84.17.53.208, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
@@ -405,61 +418,38 @@ proxies:
   - {name: kazakhstan 🇰🇿 1, server: 95.57.207.204, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
   #endregion kazakhstan
   #region Malaysia
-  - {name: Malaysia 🇲🇾 1, server: 223.25.247.206, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
   #endregion Malaysia
   #region Philippines
   - {name: Philippines 🇵🇭 1, server: 45.134.224.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
   #endregion Philippines
   #region Singapore
   - {name: Singapore 🇸🇬 1, server: 89.187.163.200, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: Singapore 🇸🇬 2, server: 89.187.163.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Singapore 🇸🇬 3, server: 156.146.56.137, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Singapore 🇸🇬 4, server: 157.245.197.77, port: 19482, type: ss, cipher: aes-256-gcm, password: isx.yt-64532725}
-  - {name: Singapore 🇸🇬 5, server: 139.162.15.45, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  #endregion Singapore
-  #region Israel
-  - {name: Israel 🇮🇱 1, server: 87.239.255.111, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: Israel 🇮🇱 2, server: 87.239.255.119, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Israel 🇮🇱 3, server: 87.239.255.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  #endregion Israel
-  #region South Africa
-  - {name: South Africa 🇿🇦 1, server: 154.127.49.228, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: South Africa 🇿🇦 2, server: 154.127.49.230, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  #endregion South Africa
-  #region United Arab Emirates
-  - {name: United Arab Emirates 🇦🇪 1, server: 45.9.250.103, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United Arab Emirates 🇦🇪 2, server: 45.9.249.247, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  #endregion United Arab Emirates
-  #region Japan
-  - {name: Japan 🇯🇵 1, server: 45.87.213.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Japan 🇯🇵 2, server: 89.187.161.4, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Japan 🇯🇵 3, server: 172.105.215.232, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  #endregion Japan
-  #region China
-  - {name: China 🇨🇳 1, server: rak.story.im, port: 12401, type: vmess, cipher: auto,uuid: 78228fab-aea2-4183-d25c-4e5b33b7c383, alterId: 64, network: ws,ws-path: /youku.com, Host:  }
-  #endregion China
-  #region Iran
-  - {name: Iran 🇮🇷 1, server: 78.157.40.102, port: 1921, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 2, server: 78.157.40.102, port: 1922, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 3, server: 78.157.40.102, port: 1923, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 4, server: 78.157.40.102, port: 1924, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 5, server: 78.157.40.102, port: 1925, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 6, server: 78.157.40.102, port: 1926, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 7, server: 78.157.40.102, port: 1927, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 8, server: 78.157.40.102, port: 1928, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 9, server: 78.157.40.102, port: 1929, type: socks5 }
-  - {name: Iran 🇮🇷 1 port 10, server: 78.157.40.102, port: 1930, type: socks5 }
-  - {name: Iran 🇮🇷 2, server: 2.186.117.173, port: 4145, type: socks5 }
-  - {name: Iran 🇮🇷 3, server: 87.107.68.133, port: 1080, type: socks5 }
-  - {name: Iran 🇮🇷 4, server: 78.157.40.100, port: 1480, type: socks5 }
+    #endregion Singapore
+    #region Israel
 
-  #endregion Iran
-  #region other
+    #endregion Israel
+    #region South Africa
+
+    #endregion South Africa
+    #region United Arab Emirates
+
+    #endregion United Arab Emirates
+    #region Japan
+
+    #endregion Japan
+  - {name: Japan 🇯🇵 1, server: 172.104.99.210, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+      #region China
+      #endregion China
+      #region Iran
+
+      #endregion Iran
+    #region other
 
   # - {name: 123, server: ssr-01.ssrsub.xyz, port: 8889, type: ssr, cipher: chacha20-ietf, password: t.me/SSRSUB , protocol: auth_chain_a ,obfs: tls1.2_ticket_auth}
   #  - {name: South Korea 🇰🇷 3, server: 141.164.36.20, port: 64710, type: vmess, cipher: auto,uuid: ded60dd7-dfde-3a08-b5cb-f89ee4514bbd, alterId: 2, network: tcp }
   #  - {name: Canada 🇨🇦 25, server: v2-05.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: dff3a7d6-8823-401d-b641-4ceaf774d6e3, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-05.ssrsub.xyz}
   #   - {name: Netherlands 🇳🇱 4, server: 95.174.67.50, port: 18080, type: http }
+  #  - {name: Canada 🇨🇦 1, server: ss-01.ssrsub.xyz, port: 8085, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
 
 
 
@@ -546,7 +536,30 @@ proxy-groups:
       - Canada 🇨🇦 6
       - Canada 🇨🇦 7
       - Canada 🇨🇦 8
-      - Canada 🇨🇦 9
+      - Canada 🇨🇦 10
+      - Canada 🇨🇦 11
+      - Canada 🇨🇦 12
+      - Canada 🇨🇦 13
+      - Canada 🇨🇦 14
+      - Canada 🇨🇦 15
+      - Canada 🇨🇦 16
+      - Canada 🇨🇦 17
+      - Canada 🇨🇦 18
+      - Canada 🇨🇦 19
+      - Canada 🇨🇦 20
+      - Canada 🇨🇦 21
+      - Canada 🇨🇦 22
+      - Canada 🇨🇦 23
+      - Canada 🇨🇦 24
+      - Canada 🇨🇦 25
+      - Canada 🇨🇦 26
+      - Canada 🇨🇦 27
+      - Canada 🇨🇦 28
+      - Canada 🇨🇦 29
+      - Canada 🇨🇦 30
+      - Canada 🇨🇦 31
+      - Canada 🇨🇦 32
+      - Canada 🇨🇦 33
       - United States 🇺🇸 1
       - United States 🇺🇸 2
       - Ireland 🇮🇪 1
@@ -686,18 +699,6 @@ proxy-groups:
       - United States 🇺🇸 63
       - United States 🇺🇸 64
       - United States 🇺🇸 65
-      - United States 🇺🇸 66
-      - United States 🇺🇸 67
-      - United States 🇺🇸 68
-      - United States 🇺🇸 69
-      - United States 🇺🇸 70
-      - United States 🇺🇸 71
-      - United States 🇺🇸 72
-      - United States 🇺🇸 73
-      - United States 🇺🇸 74
-      - United States 🇺🇸 75
-      - United States 🇺🇸 76
-      - United States 🇺🇸 77
       - Netherlands 🇳🇱 1
       - Netherlands 🇳🇱 2
       - Netherlands 🇳🇱 3
@@ -757,37 +758,11 @@ proxy-groups:
       - Hong Kong 🇭🇰 1
       - Hong Kong 🇭🇰 2
       - kazakhstan 🇰🇿 1
-      - Malaysia 🇲🇾 1
       - Philippines 🇵🇭 1
       - Singapore 🇸🇬 1
-      - Singapore 🇸🇬 2
-      - Singapore 🇸🇬 3
-      - Singapore 🇸🇬 4
-      - Singapore 🇸🇬 5
-      - Israel 🇮🇱 1
-      - Israel 🇮🇱 2
-      - Israel 🇮🇱 3
-      - South Africa 🇿🇦 1
-      - South Africa 🇿🇦 2
+      #region Japan
       - Japan 🇯🇵 1
-      - Japan 🇯🇵 2
-      - Japan 🇯🇵 3
-      - United Arab Emirates 🇦🇪 1
-      - United Arab Emirates 🇦🇪 2
-      - China 🇨🇳 1
-      - Iran 🇮🇷 1
-      - Iran 🇮🇷 1 port 2
-      - Iran 🇮🇷 1 port 3
-      - Iran 🇮🇷 1 port 4
-      - Iran 🇮🇷 1 port 5
-      - Iran 🇮🇷 1 port 6
-      - Iran 🇮🇷 1 port 7
-      - Iran 🇮🇷 1 port 8
-      - Iran 🇮🇷 1 port 9
-      - Iran 🇮🇷 1 port 10
-      - Iran 🇮🇷 2
-      - Iran 🇮🇷 3
-      - Iran 🇮🇷 4
+      #endregion Japan
 
 
     url: 'http://www.gstatic.com/generate_204'
