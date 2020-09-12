@@ -1,0 +1,801 @@
+port: 1050
+socks-port: 1080
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+proxies:
+  #region Albania
+  - {name: Albania 🇦🇱 1, server: 31.171.154.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Albania 🇦🇱 2, server: 31.171.152.197, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Albania 🇦🇱 3, server: 31.171.152.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Albania
+  #region Argentina
+  - {name: Argentina 🇦🇷 1, server: 91.206.168.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Argentina
+  #region Australia
+  - {name: Australia 🇦🇺 1, server: 124.150.139.27, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 2, server: 45.248.77.235, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 3, server: 144.48.38.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Australia 🇦🇺 4, server: 45.248.76.171, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 5, server: 124.150.139.181, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 6, server: 45.248.79.69, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 7, server: 144.48.39.133, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 8, server: 144.48.38.179, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 9, server: 45.125.247.45, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Australia 🇦🇺 10, server: 45.248.79.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Australia 🇦🇺 11, server: 144.48.39.123, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Australia 🇦🇺 12, server: 103.192.80.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Australia 🇦🇺 13, server: 144.48.38.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Australia 🇦🇺 14, server: 124.150.139.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Australia 🇦🇺 15, server: 45.248.78.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Australia 🇦🇺 16, server: 103.25.59.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Australia 🇦🇺 17, server: 103.25.59.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Australia
+  #region Austria
+  - {name: Austria 1 🇦🇹 , server: 91.132.139.101, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Austria 🇦🇹 2, server: 37.120.212.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Austria 🇦🇹 3, server: 5.253.207.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Austria 🇦🇹 4, server: 37.120.212.133, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Austria
+  #region Azerbaijan
+  - {name: Azerbaijan 🇦🇿 1, server: 94.20.21.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Azerbaijan 🇦🇿 2, server: 94.20.21.87, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  #endregion Azerbaijan
+  #region Belgium
+  - {name: Belgium 🇧🇪 1, server: 37.120.143.123, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Belgium 🇧🇪 2, server: 37.120.218.251, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Belgium
+  #region Bosnia & Herzegovina
+  - {name: Bosnia & Herzegovina 🇧🇦 1, server: 185.99.3.205, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Bosnia & Herzegovina 🇧🇦 2, server: 185.212.111.41, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Bosnia & Herzegovina 🇧🇦 3, server: 185.164.34.252, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Bosnia & Herzegovina
+  #region Brazil
+  - {name: Brazil 🇧🇷 1, server: 191.96.73.214, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Brazil 🇧🇷 2, server: 191.96.73.216, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Brazil
+  #region Bulgaria
+  - {name: Bulgaria 🇧🇬 1, server: 37.120.152.39, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Bulgaria 🇧🇬 2, server: 37.120.152.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Bulgaria 🇧🇬 3, server: 37.120.152.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Bulgaria
+  #region Canada
+  - {name: Canada 🇨🇦 1, server: 162.253.71.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Canada 🇨🇦 2, server: 172.83.40.149, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Canada 🇨🇦 3, server: 66.115.147.94, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Canada 🇨🇦 4, server: v2-03.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 206ffdbe-08f0-42f9-8ac8-0e676859905d, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-03.ssrsub.xyz}
+  - {name: Canada 🇨🇦 5, server: v2-04.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: e45ebb99-cb9f-48b8-8c36-38d6dc246924, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-04.ssrsub.xyz}
+  - {name: Canada 🇨🇦 6, server: v2-05.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: ac2bedfe-b317-4f30-834f-cc0e5cc8f598, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-05.ssrsub.xyz}
+  - {name: Canada 🇨🇦 7, server: v2-06.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 59ee7a4c-0d8e-462b-a75a-3d66071db8c7, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-06.ssrsub.xyz}
+  - {name: Canada 🇨🇦 8, server: v2-11.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 68362542-195b-42ad-883d-5b17aaf365de, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-11.ssrsub.xyz}
+  - {name: Canada 🇨🇦 9, server: v2-12.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 34a4d1d9-02fe-4ca7-af25-610b593dd506, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-12.ssrsub.xyz}
+  - {name: Canada 🇨🇦 10, server: ss-01.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 11, server: ss-02.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 12, server: ss-03.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 13, server: ss-04.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 14, server: ss-05.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 15, server: ss-07.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 16, server: ss-08.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 17, server: ss-09.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 18, server: ss-13.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 19, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 20, server: ss-15.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 21, server: ss-16.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 22, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 23, server: ss-18.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 24, server: ss-19.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 25, server: ss-20.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 26, server: ss-23.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 27, server: ss-24.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 28, server: ss-27.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 29, server: ss-28.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 30, server: ss-29.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 31, server: ss-32.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 32, server: ss-33.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: Canada 🇨🇦 33, server: ss-37.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+
+  #endregion Canada
+  #region Croatia
+  - {name: Croatia 🇭🇷 1, server: 89.164.99.109, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Croatia 🇭🇷 2, server: 89.164.99.111, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Croatia
+  #region Cyprus
+  - {name: Cyprus 🇨🇾 1, server: 195.47.194.36, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Cyprus 🇨🇾 2, server: 195.47.194.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Cyprus 🇨🇾 3, server: 195.47.194.34, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Cyprus
+  #region Denmark
+  - {name: Denmark 1 🇩🇰, server: 45.12.221.179, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Denmark 🇩🇰 2, server: 37.120.194.125, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Denmark 🇩🇰 3, server: 37.120.145.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Denmark 🇩🇰 4, server: 37.120.194.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Denmark
+  #region Estonia
+  - {name: Estonia 1 🇪🇪, server: 185.174.159.59, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Estonia 🇪🇪 2, server: 165.231.163.19, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Estonia 🇪🇪 3, server: 165.231.163.7, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Estonia
+  #region Finland
+  - {name: Finland 1 🇫🇮, server: 196.244.191.163, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Finland 🇫🇮 2, server: 196.244.191.179, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Finland
+  #region Germany
+  - {name: Germany 🇩🇪 1, server: 37.120.217.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 🇩🇪 2, server: 74.119.145.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Germany 🇩🇪 3, server: 62.171.149.162, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Germany 🇩🇪 4, server: 178.238.231.49, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Germany 🇩🇪 5, server: 217.138.216.253, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Germany 🇩🇪 6, server: 185.59.220.172, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Germany 🇩🇪 7, server: 185.102.219.6, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: Germany 🇩🇪 8, server: srv20507.dus4.dedicated.server-hosting.expert, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  #endregion Germany
+  #region Greece
+  - {name: Greece 🇬🇷 1, server: 194.150.167.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Greece 🇬🇷 2, server: 194.150.167.44, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Greece
+  #region Iceland
+  - {name: Iceland 🇮🇸 1, server: 82.221.128.166, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Iceland 🇮🇸 2, server: 82.221.128.169, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Iceland
+  #region Ireland
+  - {name: Ireland 🇮🇪 1, server: 185.108.128.159, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Ireland 🇮🇪 2, server: 185.108.128.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Ireland 🇮🇪 3, server: 185.108.128.181, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Ireland
+  #region Macedonia
+  - {name: Macedonia 1 🇲🇰, server: 185.225.28.107, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV, udp: true}
+  - {name: Macedonia 🇲🇰 2, server: 185.225.28.93, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Macedonia 🇲🇰 3, server: 185.225.28.109, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Macedonia
+  #region Norway
+  - {name: Norway 🇳🇴 1, server: 45.12.223.197, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: Norway 🇳🇴 2, server: 84.247.50.29, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Norway 🇳🇴 3, server: 84.247.50.27, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Norway
+  #region Slovenia
+  - {name: Slovenia 🇸🇮 1, server: 195.158.249.38, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV, udp: true}
+  - {name: Slovenia 🇸🇮 2, server: 195.158.249.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Slovenia 🇸🇮 3, server: 195.158.249.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Slovenia
+  #region Indonesia
+  - {name: Indonesia 🇮🇩 1, server: 103.227.255.211, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: Indonesia 🇮🇩 2, server: 103.120.66.214, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Indonesia
+  #region New Zealand
+  - {name: New Zealand 🇳🇿 1, server: 180.149.231.115, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV, udp: true}
+  - {name: New Zealand 🇳🇿 2, server: 180.149.231.165, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion New Zealand
+  #region Serbia
+  - {name: Serbia 🇷🇸 1, server: 152.89.160.125, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Serbia 🇷🇸 2, server: 152.89.160.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Serbia
+  #region South Korea
+  - {name: South Korea 🇰🇷 1, server: 61.14.210.239, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV, udp: true}
+  - {name: South Korea 🇰🇷 2, server: 61.14.210.237, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: South Korea 🇰🇷 3, server: 141.164.36.20, port: 64710, type: vmess, cipher: auto,uuid: ded60dd7-dfde-3a08-b5cb-f89ee4514bbd, alterId: 2, network: tcp }
+  - {name: South Korea 🇰🇷 4, server: 103.249.28.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: South Korea 🇰🇷 5, server: 61.14.210.244, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion South Korea
+  #region Sweden
+  - {name: Sweden 🇸🇪 1, server: 46.227.69.21, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Sweden
+  #region Taiwan
+  - {name: Taiwan 🇹🇼 1, server: 103.51.140.72, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: Taiwan 🇹🇼 2, server: 103.98.75.71, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Taiwan 🇹🇼 3, server: 103.4.29.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Taiwan 🇹🇼 4, server: v2ray.story.im, port: 12301, type: vmess, cipher: auto, uuid: d33f9735-60b9-4e55-f61f-1fa8d35c31d9, alterId: 64, network: ws,ws-path: /youku.com, Host: }
+  #endregion Taiwan
+  #region Thailand
+  - {name: Thailand 🇹🇭 1, server: 45.64.186.132, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV, udp: true}
+  - {name: Thailand 🇹🇭 2, server: 45.64.186.163, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Thailand 🇹🇭 3, server: 45.64.186.134, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Thailand
+  #region United States
+  - {name: United States 🇺🇸 1, server: 89.187.178.94, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: United States 🇺🇸 2, server: 172.93.153.150, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 3, server: 23.105.160.138, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 4, server: 104.244.208.213, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 5, server: 66.115.175.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 6, server: 192.154.253.67, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 7, server: 198.147.22.167, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 8, server: 104.148.30.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 9, server: 141.101.115.115, port: 443, type: vmess, cipher: auto,uuid: 8c35bef3-d51f-41ab-ac87-7b053410495b, alterId: 64, tls: true, network: ws,ws-path: /, Host: google.com}
+  - {name: United States 🇺🇸 10, server: notoneless.ml, port: 443, type: vmess, cipher: auto,uuid: 0e27a7e2-d86c-11ea-91c3-560002ebd632, alterId: 46, tls: true, network: ws,ws-path: /68UCSeIY/, Host: notoneless.ml}
+  - {name: United States 🇺🇸 11, server: 154.16.169.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 12, server: 192.34.83.234, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 13, server: 107.175.104.82, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 14, server: 192.40.59.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 15, server: 104.244.208.101, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 16, server: 207.244.84.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 17, server: 192.154.255.54, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 18, server: 74.119.146.117, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 19, server: 148.72.169.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 20, server: 209.216.92.215, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 21, server: 172.83.42.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 22, server: 63.141.248.181, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 23, server: 212.102.44.98, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 24, server: 198.147.22.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 25, server: 66.115.175.37, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 26, server: 66.115.177.156, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 27, server: 212.102.40.81, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 28, server: 198.147.22.133, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 29, server: 45.43.14.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 30, server: 66.115.154.133, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 31, server: 45.89.173.203, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 32, server: 184.170.243.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 33, server: 89.187.187.81, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 34, server: 104.148.30.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 35, server: 64.190.90.123, port: 38827, type: vmess, cipher: auto,uuid: 26d0acc2-da1e-11ea-858e-26dac50ad90b, alterId: 16, network: tcp }
+  - {name: United States 🇺🇸 36, server: 69.30.201.82, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 37, server: 45.79.96.104, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 38, server: 45.79.90.66, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 39, server: 45.79.90.66, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 40, server: 45.33.104.162, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 41, server: 154.16.168.184, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 42, server: 192.34.83.232, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 43, server: 74.119.146.131, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 44, server: 74.119.146.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 45, server: 66.11.124.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 46, server: 172.241.114.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 47, server: 212.102.44.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 48, server: 199.10.64.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 49, server: 199.10.64.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 50, server: 204.12.208.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 51, server: 89.187.187.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 52, server: 184.170.243.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 53, server: 184.170.243.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 54, server: 172.83.42.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 55, server: 172.83.42.158, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 56, server: 207.244.67.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 57, server: 84.17.35.91, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 58, server: 198.147.22.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 59, server: 199.58.187.69, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 60, server: 172.98.87.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 61, server: 209.58.128.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 62, server: 148.72.174.48, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 63, server: 148.72.174.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 64, server: 97.64.83.205, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: HA3nsoB0Gn4C}
+  - {name: United States 🇺🇸 65, server: c.kitslabs.com, port: 443, type: vmess, cipher: chacha20-poly1305,uuid: 95137857-70fa-4ac8-8f90-4220aeb662cf, alterId: 0, network: ws,ws-path: /v2, Host: ,tls: true }
+  - {name: United States 🇺🇸 66, server: 192.241.219.168, port: 18262, type: ss, cipher: 	aes-256-gcm, password: isx.yt-86755085}
+  - {name: United States 🇺🇸 67, server: 64.32.6.195, port: 34567, type: ss, cipher: 	rc4-md5, password: dongtaiwang.com 123abc}
+
+  #endregion United States
+  #region Switzerland
+  - {name: Switzerland 🇨🇭 1, server: 84.17.53.208, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Switzerland 🇨🇭 2, server: 84.17.53.210, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Switzerland 🇨🇭 3, server: 84.17.53.223, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Switzerland
+  #region Ukraine
+  - {name: Ukraine 🇺🇦 1, server: 45.9.238.38, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Ukraine 🇺🇦 2, server: 45.9.238.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Ukraine
+  #region Vietnam
+  - {name: Vietnam 🇻🇳 1, server: 202.143.110.32, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Vietnam 🇻🇳 2, server: 202.143.110.32, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Vietnam
+  #region Chile
+  - {name: Chile 🇨🇱 1, server: 31.169.121.16, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Chile
+  #region Libya
+  - {name: Libya 🇱🇾 1, server: 41.208.72.204, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Libya 🇱🇾 2, server: 41.208.72.157, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Libya
+  #region France
+  - {name: France 🇫🇷 1, server: 185.166.84.21, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: France 🇫🇷 2, server: 185.108.106.21, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: France 🇫🇷 3, server: 185.166.84.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: France 🇫🇷 4, server: 84.17.43.178, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: France 🇫🇷 5, server: 185.108.106.69, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: France 🇫🇷 6, server: uni.kitsunebi.fun, port: 444, type: vmess, cipher: auto,uuid: 95137857-70fa-4ac8-8f90-4220aeb662cf, alterId: 0, network: tcp }
+  - {name: France 🇫🇷 7, server: 185.166.84.33, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: France 🇫🇷 8, server: 185.166.84.77, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: France 🇫🇷 9, server: 84.17.43.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: France 🇫🇷 10, server: 84.247.51.235, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: France 🇫🇷 11, server: ab89d10b013d1ba47.awsglobalaccelerator.com, port: 8080, type: vmess, cipher: auto, uuid: e8aa4e5c-859a-35e1-ae65-eceefecd5c15, alterId: 2, network: ws,ws-path: /index, Host: downloadwindowsupdate.com}
+  #endregion France
+  #region Italy
+  - {name: Italy 🇮🇹 1, server: 217.138.219.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Italy 🇮🇹 2, server: 82.102.26.115, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Italy 🇮🇹 3, server: 84.17.58.150, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Italy 🇮🇹 4, server: 84.17.58.152, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Italy 🇮🇹 5, server: 185.128.27.39, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
+  - {name: Italy 🇮🇹 6, server: 84.17.58.190, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Italy
+  #region Spain
+  - {name: Spain 🇪🇸 1, server: 37.120.142.181, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Spain 🇪🇸 2, server: 196.196.150.67, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: Spain 🇪🇸 3, server: 185.188.61.27, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Spain 🇪🇸 4, server: 196.196.150.85, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Spain 🇪🇸 5, server: 87.239.254.20, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Spain 🇪🇸 6, server: 212.102.48.13, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Spain 🇪🇸 7, server: 185.153.150.54, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Spain
+  #region United Kingdom
+  - {name: United Kingdom 🇬🇧 1, server: 185.193.36.208, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United Kingdom 🇬🇧 2, server: 5.226.139.65, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United Kingdom 🇬🇧 3, server: 185.108.105.18, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United Kingdom 🇬🇧 4, server: 185.108.105.57, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United Kingdom 🇬🇧 5, server: 185.108.105.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United Kingdom 🇬🇧 6, server: 185.108.105.3, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United Kingdom 🇬🇧 7, server: 185.16.206.75, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United Kingdom 🇬🇧 8, server: 86.106.136.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United Kingdom 🇬🇧 9, server: 86.106.136.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion United Kingdom
+  #region India
+  - {name: India 🇮🇳 1, server: 103.221.233.91, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: India 🇮🇳 2, server: 103.39.132.189, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: India 🇮🇳 3, server: 103.108.117.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: India 🇮🇳 4, server: 103.221.233.68, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: India 🇮🇳 5, server: 103.73.189.221, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: India 🇮🇳 6, server: 103.94.27.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: India 🇮🇳 7, server: 103.73.189.219, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: India 🇮🇳 8, server: 137.59.52.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: India 🇮🇳 9, server: 165.231.253.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion India
+  #region Netherlands
+  - {name: Netherlands 🇳🇱 1, server: 51.195.9.16, port: 443, type: vmess, cipher: auto, uuid: 4efc0717-b27f-4f57-aac3-f1ef1707467e, alterId: 64, tls: true, network: ws,ws-path: /footers, Host: www.1058297549.xyz}
+  - {name: Netherlands 🇳🇱 2, server: 81.19.209.100, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Netherlands 🇳🇱 3, server: 185.59.222.94, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Netherlands 🇳🇱 4, server: 95.174.67.50, port: 18080, type: http }
+  #endregion Netherlands
+  #region Czech Republic
+  - {name: Czech Republic 🇨🇿 1, server: 185.152.64.178, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Czech Republic
+  #region Hungary
+  - {name: Hungary 🇭🇺 1, server: 37.120.144.215, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Hungary
+  #region Latvia
+  - {name: Latvia 🇱🇻 1, server: 188.92.78.135, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Latvia 🇱🇻 2, server: 188.92.78.140, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Latvia 🇱🇻 3, server: 188.92.78.145, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Latvia
+  #region Luxembourg
+  - {name: Luxembourg 🇱🇺 1, server: 185.153.151.89, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Luxembourg 🇱🇺 2, server: 185.153.151.82, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Luxembourg 🇱🇺 3, server: 185.153.151.75, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
+  - {name: Luxembourg 🇱🇺 4, server: 185.153.151.98, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Luxembourg
+  #region Moldova
+  - {name: Moldova 🇲🇩 1, server: 178.175.128.235, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Moldova 🇲🇩 2, server: 178.175.128.237, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Moldova
+  #region Poland
+  - {name: Poland 🇵🇱 1, server: 185.246.208.182, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Poland 🇵🇱 2, server: 5.187.49.187, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Poland 🇵🇱 3, server: 5.187.53.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Poland 🇵🇱 4, server: 185.246.208.176, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Poland 🇵🇱 5, server: 5.253.206.229, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Poland
+  #region Portugal
+  - {name: Portugal 🇵🇹 1, server: 194.39.127.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Portugal 🇵🇹 2, server: 5.154.174.77, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Portugal 🇵🇹 3, server: 94.126.172.57, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Portugal 🇵🇹 4, server: 5.154.174.219, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Portugal 🇵🇹 5, server: 5.154.174.213, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Portugal 🇵🇹 6, server: 176.61.146.106, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Portugal 🇵🇹 7, server: 194.39.127.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Portugal
+  #region Romania
+  - {name: Romania 🇷🇴 1, server: 86.106.137.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Romania 🇷🇴 2, server: 45.89.175.55, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Romania 🇷🇴 3, server: 45.89.175.51, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Romania
+  #region Russia
+  - {name: Russia 🇷🇺 1, server: 213.183.56.145, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Russia 🇷🇺 2, server: 213.183.54.23, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Russia
+  #region Slovakia
+  - {name: Slovakia 🇸🇰 1, server: 37.120.221.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Slovakia 🇸🇰 2, server: 37.120.221.5, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Slovakia
+  #region Turkey
+  - {name: Turkey 🇹🇷 1, server: 107.150.95.163, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Turkey 🇹🇷 2, server: 185.195.79.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Turkey 🇹🇷 3, server: 107.150.95.165, port: 31984, type: ss, cipher: aes-256-gcm, password: dkLhZpfWhRHQfKtQXyHDj8NX}
+  - {name: Turkey 🇹🇷 4, server: 185.195.79.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Turkey 🇹🇷 5, server: 107.150.95.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Turkey
+  #region Colombia
+  - {name: Colombia 🇨🇴 1, server: 45.129.32.22, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Colombia
+  #region Costa Rica
+  - {name: Costa Rica 🇨🇷 1, server: 176.227.241.19, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Costa Rica 🇨🇷 2, server: 176.227.241.21, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  #endregion Costa Rica
+  #region Mexico
+  - {name: Mexico 🇲🇽 1, server: 194.41.112.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Mexico
+  #region Paraguay
+  - {name: Paraguay 🇵🇾 1, server: 186.16.32.168, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Paraguay 🇵🇾 2, server: 181.40.18.47, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  #endregion Paraguay
+
+  #region Hong Kong
+  - {name: Hong Kong 🇭🇰 1, server: 84.17.37.156, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Hong Kong 🇭🇰 2, server: 84.17.57.68, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Hong Kong
+  #region kazakhstan
+  - {name: kazakhstan 🇰🇿 1, server: 95.57.207.204, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion kazakhstan
+  #region Malaysia
+  #endregion Malaysia
+  #region Philippines
+  - {name: Philippines 🇵🇭 1, server: 45.134.224.5, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Philippines
+  #region Singapore
+  - {name: Singapore 🇸🇬 1, server: 89.187.163.200, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  #endregion Singapore
+  #region Israel
+
+  #endregion Israel
+  #region South Africa
+
+  #endregion South Africa
+  #region United Arab Emirates
+
+  #endregion United Arab Emirates
+  #region Japan
+
+  #endregion Japan 🇯🇵
+  - {name: Japan 🇯🇵 1, server: 172.104.99.210, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: Japan 🇯🇵 2, server: 45.87.213.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: Japan 🇯🇵 3 ,server: 89.187.161.4, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+
+  #region China
+  - {name: China 🇨🇳 1, server: n73.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS,obfs: http_simple,protocol: auth_aes128_sha1,protocol-param: 945:dtTJrf}
+  #endregion China
+  #region Iran
+
+  #endregion Iran
+  #region other
+
+  # - {name: 123, server: ssr-01.ssrsub.xyz, port: 8889, type: ssr, cipher: chacha20-ietf, password: t.me/SSRSUB , protocol: auth_chain_a ,obfs: tls1.2_ticket_auth}
+  #  - {name: South Korea 🇰🇷 3, server: 141.164.36.20, port: 64710, type: vmess, cipher: auto,uuid: ded60dd7-dfde-3a08-b5cb-f89ee4514bbd, alterId: 2, network: tcp }
+  #  - {name: Canada 🇨🇦 25, server: v2-05.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: dff3a7d6-8823-401d-b641-4ceaf774d6e3, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-05.ssrsub.xyz}
+  #   - {name: Netherlands 🇳🇱 4, server: 95.174.67.50, port: 18080, type: http }
+  #  - {name: Canada 🇨🇦 1, server: ss-01.ssrsub.xyz, port: 8085, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  #  - {name: China 🇨🇳 1, server: n25.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: VWs5MkNT,obfs: http_simple,protocol: auth_aes128_sha1,obfs-param: 945:dtTJrf,protocol-param: }
+
+
+
+
+proxy-groups:
+  - name: 🔰 انتخاب
+    type: select
+    proxies:
+      - 🔥 بهترین عملکرد
+      - ✅ Direct
+
+  - name: 🔥 بهترین عملکرد
+    type: url-test
+    proxies:
+      - Argentina 🇦🇷 1
+      - Albania 🇦🇱 1
+      - Albania 🇦🇱 2
+      - Albania 🇦🇱 3
+      - Austria 1 🇦🇹
+      - Austria 🇦🇹 2
+      - Austria 🇦🇹 3
+      - Austria 🇦🇹 4
+      - Bulgaria 🇧🇬 1
+      - Bulgaria 🇧🇬 2
+      - Bulgaria 🇧🇬 3
+      - Belgium 🇧🇪 1
+      - Belgium 🇧🇪 2
+      - Bosnia & Herzegovina 🇧🇦 1
+      - Bosnia & Herzegovina 🇧🇦 2
+      - Bosnia & Herzegovina 🇧🇦 3
+      - Croatia 🇭🇷 1
+      - Croatia 🇭🇷 2
+      - Denmark 1 🇩🇰
+      - Denmark 🇩🇰 2
+      - Denmark 🇩🇰 3
+      - Denmark 🇩🇰 4
+      - Estonia 1 🇪🇪
+      - Estonia 🇪🇪 2
+      - Estonia 🇪🇪 3
+      - Finland 1 🇫🇮
+      - Finland 🇫🇮 2
+      - Germany 🇩🇪 1
+      - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Germany 🇩🇪 5
+      - Germany 🇩🇪 6
+      - Germany 🇩🇪 7
+      - Germany 🇩🇪 8
+      - Iceland 🇮🇸 1
+      - Iceland 🇮🇸 2
+      - Macedonia 1 🇲🇰
+      - Macedonia 🇲🇰 2
+      - Macedonia 🇲🇰 3
+      - Norway 🇳🇴 1
+      - Norway 🇳🇴 2
+      - Norway 🇳🇴 3
+      - Slovenia 🇸🇮 1
+      - Slovenia 🇸🇮 2
+      - Slovenia 🇸🇮 3
+      - Indonesia 🇮🇩 1
+      - Indonesia 🇮🇩 2
+      - New Zealand 🇳🇿 1
+      - New Zealand 🇳🇿 2
+      - South Korea 🇰🇷 1
+      - South Korea 🇰🇷 2
+      - South Korea 🇰🇷 3
+      - South Korea 🇰🇷 4
+      - South Korea 🇰🇷 5
+      - Serbia 🇷🇸 1
+      - Serbia 🇷🇸 2
+      - Taiwan 🇹🇼 1
+      - Taiwan 🇹🇼 2
+      - Taiwan 🇹🇼 3
+      - Taiwan 🇹🇼 4
+      - Thailand 🇹🇭 1
+      - Thailand 🇹🇭 2
+      - Thailand 🇹🇭 3
+      - Canada 🇨🇦 1
+      - Canada 🇨🇦 2
+      - Canada 🇨🇦 3
+      - Canada 🇨🇦 4
+      - Canada 🇨🇦 5
+      - Canada 🇨🇦 6
+      - Canada 🇨🇦 7
+      - Canada 🇨🇦 8
+      - Canada 🇨🇦 10
+      - Canada 🇨🇦 11
+      - Canada 🇨🇦 12
+      - Canada 🇨🇦 13
+      - Canada 🇨🇦 14
+      - Canada 🇨🇦 15
+      - Canada 🇨🇦 16
+      - Canada 🇨🇦 17
+      - Canada 🇨🇦 18
+      - Canada 🇨🇦 19
+      - Canada 🇨🇦 20
+      - Canada 🇨🇦 21
+      - Canada 🇨🇦 22
+      - Canada 🇨🇦 23
+      - Canada 🇨🇦 24
+      - Canada 🇨🇦 25
+      - Canada 🇨🇦 26
+      - Canada 🇨🇦 27
+      - Canada 🇨🇦 28
+      - Canada 🇨🇦 29
+      - Canada 🇨🇦 30
+      - Canada 🇨🇦 31
+      - Canada 🇨🇦 32
+      - Canada 🇨🇦 33
+      - United States 🇺🇸 1
+      - United States 🇺🇸 2
+      - Ireland 🇮🇪 1
+      - Ireland 🇮🇪 2
+      - Ireland 🇮🇪 3
+      - Sweden 🇸🇪 1
+      - Switzerland 🇨🇭 1
+      - Switzerland 🇨🇭 2
+      - Switzerland 🇨🇭 3
+      - Ukraine 🇺🇦 1
+      - Ukraine 🇺🇦 2
+      - Vietnam 🇻🇳 1
+      - Vietnam 🇻🇳 2
+      - Chile 🇨🇱 1
+      - Libya 🇱🇾 1
+      - Libya 🇱🇾 2
+      - France 🇫🇷 1
+      - France 🇫🇷 2
+      - France 🇫🇷 3
+      - France 🇫🇷 4
+      - France 🇫🇷 5
+      - France 🇫🇷 6
+      - France 🇫🇷 7
+      - France 🇫🇷 8
+      - France 🇫🇷 9
+      - France 🇫🇷 10
+      - France 🇫🇷 11
+      - Italy 🇮🇹 1
+      - Italy 🇮🇹 2
+      - Italy 🇮🇹 3
+      - Italy 🇮🇹 4
+      - Italy 🇮🇹 5
+      - Italy 🇮🇹 6
+      - Spain 🇪🇸 1
+      - Spain 🇪🇸 2
+      - Spain 🇪🇸 3
+      - Spain 🇪🇸 4
+      - Spain 🇪🇸 5
+      - Spain 🇪🇸 6
+      - Spain 🇪🇸 7
+      - United Kingdom 🇬🇧 1
+      - United Kingdom 🇬🇧 2
+      - United Kingdom 🇬🇧 3
+      - United Kingdom 🇬🇧 4
+      - United Kingdom 🇬🇧 5
+      - United Kingdom 🇬🇧 6
+      - United Kingdom 🇬🇧 7
+      - United Kingdom 🇬🇧 8
+      - United Kingdom 🇬🇧 9
+      - Australia 🇦🇺 1
+      - Australia 🇦🇺 2
+      - Australia 🇦🇺 3
+      - Australia 🇦🇺 4
+      - Australia 🇦🇺 5
+      - Australia 🇦🇺 6
+      - Australia 🇦🇺 7
+      - Australia 🇦🇺 8
+      - Australia 🇦🇺 9
+      - Australia 🇦🇺 10
+      - Australia 🇦🇺 11
+      - Australia 🇦🇺 12
+      - Australia 🇦🇺 13
+      - Australia 🇦🇺 14
+      - Australia 🇦🇺 15
+      - Australia 🇦🇺 16
+      - Australia 🇦🇺 17
+      - India 🇮🇳 1
+      - India 🇮🇳 2
+      - India 🇮🇳 3
+      - India 🇮🇳 4
+      - India 🇮🇳 5
+      - India 🇮🇳 6
+      - India 🇮🇳 7
+      - India 🇮🇳 8
+      - India 🇮🇳 9
+      - United States 🇺🇸 3
+      - United States 🇺🇸 4
+      - United States 🇺🇸 5
+      - United States 🇺🇸 6
+      - United States 🇺🇸 7
+      - United States 🇺🇸 8
+      - United States 🇺🇸 9
+      - United States 🇺🇸 10
+      - United States 🇺🇸 11
+      - United States 🇺🇸 12
+      - United States 🇺🇸 13
+      - United States 🇺🇸 14
+      - United States 🇺🇸 15
+      - United States 🇺🇸 16
+      - United States 🇺🇸 17
+      - United States 🇺🇸 18
+      - United States 🇺🇸 19
+      - United States 🇺🇸 20
+      - United States 🇺🇸 21
+      - United States 🇺🇸 22
+      - United States 🇺🇸 23
+      - United States 🇺🇸 24
+      - United States 🇺🇸 25
+      - United States 🇺🇸 26
+      - United States 🇺🇸 27
+      - United States 🇺🇸 28
+      - United States 🇺🇸 29
+      - United States 🇺🇸 30
+      - United States 🇺🇸 31
+      - United States 🇺🇸 32
+      - United States 🇺🇸 33
+      - United States 🇺🇸 34
+      - United States 🇺🇸 35
+      - United States 🇺🇸 36
+      - United States 🇺🇸 37
+      - United States 🇺🇸 38
+      - United States 🇺🇸 39
+      - United States 🇺🇸 40
+      - United States 🇺🇸 40
+      - United States 🇺🇸 41
+      - United States 🇺🇸 42
+      - United States 🇺🇸 43
+      - United States 🇺🇸 44
+      - United States 🇺🇸 45
+      - United States 🇺🇸 46
+      - United States 🇺🇸 47
+      - United States 🇺🇸 48
+      - United States 🇺🇸 49
+      - United States 🇺🇸 50
+      - United States 🇺🇸 51
+      - United States 🇺🇸 52
+      - United States 🇺🇸 53
+      - United States 🇺🇸 54
+      - United States 🇺🇸 55
+      - United States 🇺🇸 56
+      - United States 🇺🇸 57
+      - United States 🇺🇸 58
+      - United States 🇺🇸 59
+      - United States 🇺🇸 60
+      - United States 🇺🇸 61
+      - United States 🇺🇸 62
+      - United States 🇺🇸 63
+      - United States 🇺🇸 64
+      - United States 🇺🇸 65
+      - United States 🇺🇸 66
+      - United States 🇺🇸 67
+      - Netherlands 🇳🇱 1
+      - Netherlands 🇳🇱 2
+      - Netherlands 🇳🇱 3
+      - Netherlands 🇳🇱 4
+      - Cyprus 🇨🇾 1
+      - Cyprus 🇨🇾 2
+      - Cyprus 🇨🇾 3
+      - Czech Republic 🇨🇿 1
+      - Greece 🇬🇷 1
+      - Greece 🇬🇷 2
+      - Hungary 🇭🇺 1
+      - Latvia 🇱🇻 1
+      - Latvia 🇱🇻 2
+      - Latvia 🇱🇻 3
+      - Luxembourg 🇱🇺 1
+      - Luxembourg 🇱🇺 2
+      - Luxembourg 🇱🇺 3
+      - Luxembourg 🇱🇺 4
+      - Moldova 🇲🇩 1
+      - Moldova 🇲🇩 2
+      - Poland 🇵🇱 1
+      - Poland 🇵🇱 2
+      - Poland 🇵🇱 3
+      - Poland 🇵🇱 4
+      - Poland 🇵🇱 5
+      - Portugal 🇵🇹 1
+      - Portugal 🇵🇹 2
+      - Portugal 🇵🇹 3
+      - Portugal 🇵🇹 4
+      - Portugal 🇵🇹 5
+      - Portugal 🇵🇹 6
+      - Portugal 🇵🇹 7
+      - Romania 🇷🇴 1
+      - Romania 🇷🇴 2
+      - Romania 🇷🇴 3
+      - Russia 🇷🇺 1
+      - Russia 🇷🇺 2
+      - Slovakia 🇸🇰 1
+      - Slovakia 🇸🇰 2
+      - Turkey 🇹🇷 1
+      - Turkey 🇹🇷 2
+      - Turkey 🇹🇷 3
+      - Turkey 🇹🇷 4
+      - Turkey 🇹🇷 5
+      - Argentina 🇦🇷 1
+      - Brazil 🇧🇷 1
+      - Brazil 🇧🇷 2
+      - Colombia 🇨🇴 1
+      - Costa Rica 🇨🇷 1
+      - Costa Rica 🇨🇷 2
+      - Mexico 🇲🇽 1
+      - Paraguay 🇵🇾 1
+      - Paraguay 🇵🇾 2
+      - Azerbaijan 🇦🇿 1
+      - Azerbaijan 🇦🇿 2
+      - Hong Kong 🇭🇰 1
+      - Hong Kong 🇭🇰 2
+      - kazakhstan 🇰🇿 1
+      - Philippines 🇵🇭 1
+      - Singapore 🇸🇬 1
+      #region Japan
+      - Japan 🇯🇵 1
+      - Japan 🇯🇵 2
+      - Japan 🇯🇵 3
+      #endregion Japan
+      - China 🇨🇳 1
+
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+
+  - name: ✅ Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🚫 Intercept
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+
+rules:
+  - DOMAIN-SUFFIX,google.com,🔰 انتخاب
+  - DOMAIN-KEYWORD,google,🔰 انتخاب
+  - DOMAIN,google.com,🔰 انتخاب
+  - DOMAIN-SUFFIX,ad.com,🚫 Intercept
+  - SRC-IP-CIDR,192.168.1.201/32,✅ Direct
+  - IP-CIDR,127.0.0.0/8,✅ Direct
+  - GEOIP,IR,✅ Direct
+  - MATCH,,🔰 انتخاب,dns-failed
