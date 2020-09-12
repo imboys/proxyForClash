@@ -59,7 +59,6 @@ proxies:
   - {name: Bulgaria 🇧🇬 1, server: 37.120.152.39, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Bulgaria 🇧🇬 2, server: 37.120.152.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
   - {name: Bulgaria 🇧🇬 3, server: 37.120.152.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Bulgaria 🇧🇬 4, server: 85.14.5.5, port: 80, type: http }
   #endregion Bulgaria
   #region Canada
   - {name: Canada 🇨🇦 1, server: 162.253.71.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
@@ -333,7 +332,6 @@ proxies:
   - {name: India 🇮🇳 7, server: 103.73.189.219, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
   - {name: India 🇮🇳 8, server: 137.59.52.107, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
   - {name: India 🇮🇳 9, server: 165.231.253.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: India 🇮🇳 10, server: ind-aws.uturbo.xyz, port: 443, type: ssr, cipher: xchacha20s, password: mblank1port,obfs: tls1.2_ticket_auth,protocol: auth_aes128_md5,protocol-param: 35681:a88888888,obfs-param: cdn.sharepointonline.com}
   #endregion India
   #region Netherlands
   - {name: Netherlands 🇳🇱 1, server: 51.195.9.16, port: 443, type: vmess, cipher: auto, uuid: 4efc0717-b27f-4f57-aac3-f1ef1707467e, alterId: 64, tls: true, network: ws,ws-path: /footers, Host: www.1058297549.xyz}
@@ -377,7 +375,6 @@ proxies:
   - {name: Portugal 🇵🇹 5, server: 5.154.174.213, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
   - {name: Portugal 🇵🇹 6, server: 176.61.146.106, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
   - {name: Portugal 🇵🇹 7, server: 194.39.127.231, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Portugal 🇵🇹 8, server: 51.89.32.83, port: 3128, type: http }
   #endregion Portugal
   #region Romania
   - {name: Romania 🇷🇴 1, server: 86.106.137.147, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
@@ -743,7 +740,6 @@ proxy-groups:
       - Portugal 🇵🇹 5
       - Portugal 🇵🇹 6
       - Portugal 🇵🇹 7
-      - Portugal 🇵🇹 8
       - Romania 🇷🇴 1
       - Romania 🇷🇴 2
       - Romania 🇷🇴 3
