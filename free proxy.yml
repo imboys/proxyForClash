@@ -506,14 +506,13 @@ proxies:
   - {name: United States 🇺🇸 86, server: us-stl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
   - {name: United States 🇺🇸 87, server: us-mia.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
   - {name: United States 🇺🇸 88, server: us-orl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 89, server: us-tpa.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 90, server: us-kan.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 91, server: us-dal.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 92, server: us-bdn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 93, server: us-hou.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 94, server: us-phx.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 95, server: us-sfo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 96, server: us-las.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 89, server: us-kan.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 90, server: us-dal.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 91, server: us-bdn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 92, server: us-hou.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 93, server: us-phx.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 94, server: us-sfo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 95, server: us-las.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
  #endregion United States
  #region Vietnam
   - {name: Vietnam 🇻🇳 1, server: 202.143.110.32, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
@@ -976,7 +975,6 @@ proxy-groups:
       - United States 🇺🇸 93
       - United States 🇺🇸 94
       - United States 🇺🇸 95
-      - United States 🇺🇸 96
     #Vietnam
       - Vietnam 🇻🇳 1
       - Vietnam 🇻🇳 2
