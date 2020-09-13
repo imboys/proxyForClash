@@ -26,13 +26,11 @@ proxies:
   - {name: Australia 🇦🇺 12, server: 144.48.38.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
   - {name: Australia 🇦🇺 13, server: 124.150.139.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
   - {name: Australia 🇦🇺 14, server: 45.248.78.43, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Australia 🇦🇺 15, server: 103.25.59.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Australia 🇦🇺 16, server: 103.25.59.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Australia 🇦🇺 17, server: au-per.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: Australia 🇦🇺 18, server: au-adl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: Australia 🇦🇺 19, server: au-bne.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: Australia 🇦🇺 20, server: au-mel.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: Australia 🇦🇺 21, server: au-syd.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Australia 🇦🇺 15, server: 103.25.59.53, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: Australia 🇦🇺 16, server: au-per.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Australia 🇦🇺 17, server: au-adl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Australia 🇦🇺 18, server: au-mel.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Australia 🇦🇺 19, server: au-syd.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
  #endregion Australia
  #region Austria
   - {name: Austria 🇦🇹 1, server: 37.120.212.133, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
@@ -47,10 +45,8 @@ proxies:
   - {name: Belgium 🇧🇪 1, server: 37.120.218.251, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
  #endregion Belgium
  #region Bosnia & Herzegovina
-  - {name: Bosnia & Herzegovina 🇧🇦 1, server: 185.99.3.205, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: Bosnia & Herzegovina 🇧🇦 2, server: 185.212.111.41, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: Bosnia & Herzegovina 🇧🇦 3, server: 185.164.34.252, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: Bosnia & Herzegovina 🇧🇦 4, server: ba-sjj.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Bosnia & Herzegovina 🇧🇦 1, server: 185.212.111.41, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: Bosnia & Herzegovina 🇧🇦 2, server: ba-sjj.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
  #endregion Bosnia & Herzegovina
  #region Brazil
   - {name: Brazil 🇧🇷 1, server: 191.96.73.216, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
@@ -69,35 +65,7 @@ proxies:
   - {name: Canada 🇨🇦 4, server: v2-03.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 206ffdbe-08f0-42f9-8ac8-0e676859905d, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-03.ssrsub.xyz}
   - {name: Canada 🇨🇦 5, server: v2-04.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: e45ebb99-cb9f-48b8-8c36-38d6dc246924, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-04.ssrsub.xyz}
   - {name: Canada 🇨🇦 6, server: v2-05.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: ac2bedfe-b317-4f30-834f-cc0e5cc8f598, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-05.ssrsub.xyz}
-  - {name: Canada 🇨🇦 7, server: v2-06.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 59ee7a4c-0d8e-462b-a75a-3d66071db8c7, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-06.ssrsub.xyz}
-  - {name: Canada 🇨🇦 8, server: v2-11.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 68362542-195b-42ad-883d-5b17aaf365de, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-11.ssrsub.xyz}
-  - {name: Canada 🇨🇦 9, server: v2-12.ssrsub.xyz, port: 443, type: vmess, cipher: auto, uuid: 34a4d1d9-02fe-4ca7-af25-610b593dd506, alterId: 233, tls: true, network: ws,ws-path: /, Host: v2-12.ssrsub.xyz}
-  - {name: Canada 🇨🇦 10, server: ss-01.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 11, server: ss-02.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 12, server: ss-03.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 13, server: ss-04.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 14, server: ss-05.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 15, server: ss-07.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 16, server: ss-08.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 17, server: ss-09.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 18, server: ss-13.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 19, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 20, server: ss-15.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 21, server: ss-16.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 22, server: ss-17.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 23, server: ss-18.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 24, server: ss-19.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 25, server: ss-20.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 26, server: ss-23.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 27, server: ss-24.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 28, server: ss-27.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 29, server: ss-28.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 30, server: ss-29.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 31, server: ss-32.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 32, server: ss-33.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 33, server: ss-37.ssrsub.xyz, port: 8086, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 34, server: ss-22.ssrsub.xyz, port: 29993, type: ss, cipher: xchacha20-ietf-poly1305, password: t.cn/EGJIyrl, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
-  - {name: Canada 🇨🇦 35, server: ca-van.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Canada 🇨🇦 7, server: ca-van.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
  #endregion Canada
  #region Chile
   - {name: Chile 🇨🇱 1, server: 31.169.121.16, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
@@ -605,8 +573,7 @@ proxy-groups:
       - Australia 🇦🇺 17
       - Australia 🇦🇺 18
       - Australia 🇦🇺 19
-      - Australia 🇦🇺 20
-      - Australia 🇦🇺 21
+
     #Austria
       - Austria 🇦🇹 1
     #Azerbaijan
@@ -618,8 +585,6 @@ proxy-groups:
     #Bosnia & Herzegovina
       - Bosnia & Herzegovina 🇧🇦 1
       - Bosnia & Herzegovina 🇧🇦 2
-      - Bosnia & Herzegovina 🇧🇦 3
-      - Bosnia & Herzegovina 🇧🇦 4
     #Brazil
       - Brazil 🇧🇷 1
     #Bulgaria  
@@ -635,33 +600,6 @@ proxy-groups:
       - Canada 🇨🇦 5
       - Canada 🇨🇦 6
       - Canada 🇨🇦 7
-      - Canada 🇨🇦 8
-      - Canada 🇨🇦 10
-      - Canada 🇨🇦 11
-      - Canada 🇨🇦 12
-      - Canada 🇨🇦 13
-      - Canada 🇨🇦 14
-      - Canada 🇨🇦 15
-      - Canada 🇨🇦 16
-      - Canada 🇨🇦 17
-      - Canada 🇨🇦 18
-      - Canada 🇨🇦 19
-      - Canada 🇨🇦 20
-      - Canada 🇨🇦 21
-      - Canada 🇨🇦 22
-      - Canada 🇨🇦 23
-      - Canada 🇨🇦 24
-      - Canada 🇨🇦 25
-      - Canada 🇨🇦 26
-      - Canada 🇨🇦 27
-      - Canada 🇨🇦 28
-      - Canada 🇨🇦 29
-      - Canada 🇨🇦 30
-      - Canada 🇨🇦 31
-      - Canada 🇨🇦 32
-      - Canada 🇨🇦 33
-      - Canada 🇨🇦 34
-      - Canada 🇨🇦 35
     #Chile 
       - Chile 🇨🇱 1
       - Chile 🇨🇱 2
