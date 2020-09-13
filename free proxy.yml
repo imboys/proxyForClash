@@ -375,8 +375,7 @@ proxies:
   - {name: Taiwan 🇹🇼 1, server: 103.51.140.72, port: 36133, type: ss, cipher: aes-256-gcm, password: xPNTeRxDB3u2ASfGmRj5V7GV}
   - {name: Taiwan 🇹🇼 2, server: 103.98.75.71, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
   - {name: Taiwan 🇹🇼 3, server: 103.4.29.242, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: Taiwan 🇹🇼 4, server: v2ray.story.im, port: 12301, type: vmess, cipher: auto, uuid: d33f9735-60b9-4e55-f61f-1fa8d35c31d9, alterId: 64, network: ws,ws-path: /youku.com, Host: }
-  - {name: Taiwan 🇹🇼 5, server: tw-tai.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Taiwan 🇹🇼 4, server: tw-tai.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
   
  #endregion Taiwan
  #region Thailand
@@ -483,36 +482,14 @@ proxies:
   - {name: United States 🇺🇸 63, server: 148.72.174.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
   - {name: United States 🇺🇸 64, server: 97.64.83.205, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: HA3nsoB0Gn4C}
   - {name: United States 🇺🇸 65, server: c.kitslabs.com, port: 443, type: vmess, cipher: chacha20-poly1305,uuid: 95137857-70fa-4ac8-8f90-4220aeb662cf, alterId: 0, network: ws,ws-path: /v2, Host: ,tls: true }
-  - {name: United States 🇺🇸 66, server: 192.241.219.168, port: 18262, type: ss, cipher: 	aes-256-gcm, password: isx.yt-86755085}
-  - {name: United States 🇺🇸 67, server: 64.32.6.195, port: 34567, type: ss, cipher: 	rc4-md5, password: dongtaiwang.com 123abc}
-  - {name: United States 🇺🇸 68, server: 50.7.12.147, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 69, server: 162.220.51.58, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 70, server: 69.36.182.52, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 71, server: 192.240.123.26, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 72, server: h2.coding996.com, port: 443, type: vmess, uuid: 2e199875-f955-45f1-8eee-d843edc3d618, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: h2.coding996.com}}
-  - {name: United States 🇺🇸 73, server: h4.coding996.com, port: 443, type: vmess, uuid: e8f9f061-c481-4c4a-8e7a-68cd062c1bb9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: h4.coding996.com}}
-  - {name: United States 🇺🇸 74, server: 142.4.108.232, port: 443, type: vmess, uuid: 95ccdad7-0be4-4d76-a5bd-84aa2701ca08, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.693845241.xyz}}
-  - {name: United States 🇺🇸 75, server: 142.4.108.229, port: 443, type: vmess, uuid: 47d03581-c5c9-4764-bbd6-d4e3733b2f7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.085298926.xyz}}
-  - {name: United States 🇺🇸 76, server: 23.225.57.202, port: 443, type: vmess, uuid: e2266c08-96aa-4ccb-b918-163db05abffa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: United States 🇺🇸 77, server: 154.16.168.186, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 78, server: us-ltm.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 79, server: us-nyc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 80, server: us-bos.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 81, server: us-buf.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 82, server: us-mnz.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 83, server: us-dtw.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 84, server: us-clt.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 85, server: us-atl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 86, server: us-stl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 87, server: us-mia.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 88, server: us-orl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 89, server: us-kan.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 90, server: us-dal.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 91, server: us-bdn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 92, server: us-hou.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 93, server: us-phx.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 94, server: us-sfo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 95, server: us-las.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 66, server: h2.coding996.com, port: 443, type: vmess, uuid: 2e199875-f955-45f1-8eee-d843edc3d618, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: h2.coding996.com}}
+  - {name: United States 🇺🇸 67, server: 142.4.108.232, port: 443, type: vmess, uuid: 95ccdad7-0be4-4d76-a5bd-84aa2701ca08, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.693845241.xyz}}
+  - {name: United States 🇺🇸 68, server: 142.4.108.229, port: 443, type: vmess, uuid: 47d03581-c5c9-4764-bbd6-d4e3733b2f7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.085298926.xyz}}
+  - {name: United States 🇺🇸 69, server: 23.225.57.202, port: 443, type: vmess, uuid: e2266c08-96aa-4ccb-b918-163db05abffa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
+  - {name: United States 🇺🇸 70, server: us-ltm.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 71, server: us-nyc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 72, server: us-bos.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+
  #endregion United States
  #region Vietnam
   - {name: Vietnam 🇻🇳 1, server: 202.143.110.32, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
@@ -847,7 +824,6 @@ proxy-groups:
       - Taiwan 🇹🇼 2
       - Taiwan 🇹🇼 3
       - Taiwan 🇹🇼 4
-      - Taiwan 🇹🇼 5
     #Thailand
       - Thailand 🇹🇭 1
       - Thailand 🇹🇭 2
@@ -952,29 +928,7 @@ proxy-groups:
       - United States 🇺🇸 70
       - United States 🇺🇸 71
       - United States 🇺🇸 72
-      - United States 🇺🇸 73
-      - United States 🇺🇸 74
-      - United States 🇺🇸 75
-      - United States 🇺🇸 76
-      - United States 🇺🇸 77  
-      - United States 🇺🇸 78
-      - United States 🇺🇸 79
-      - United States 🇺🇸 80
-      - United States 🇺🇸 81
-      - United States 🇺🇸 82
-      - United States 🇺🇸 83
-      - United States 🇺🇸 84
-      - United States 🇺🇸 85
-      - United States 🇺🇸 86
-      - United States 🇺🇸 87
-      - United States 🇺🇸 88
-      - United States 🇺🇸 89
-      - United States 🇺🇸 90
-      - United States 🇺🇸 91
-      - United States 🇺🇸 92
-      - United States 🇺🇸 93
-      - United States 🇺🇸 94
-      - United States 🇺🇸 95
+
     #Vietnam
       - Vietnam 🇻🇳 1
       - Vietnam 🇻🇳 2
