@@ -417,78 +417,18 @@ proxies:
   - {name: United Kingdom 🇬🇧 13, server: uk-gla.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
  #endregion United Kingdom
  #region United States
-  - {name: United States 🇺🇸 1, server: 89.187.178.94, port: 34583, type: ss, cipher: aes-256-gcm, password: hbWeaNJfjeP6GkT7jp6CSSx8}
-  - {name: United States 🇺🇸 2, server: 172.93.153.150, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 3, server: 23.105.160.138, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
-  - {name: United States 🇺🇸 4, server: 104.244.208.213, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
-  - {name: United States 🇺🇸 5, server: 66.115.175.47, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
-  - {name: United States 🇺🇸 6, server: 192.154.253.67, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 7, server: 198.147.22.167, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
-  - {name: United States 🇺🇸 8, server: 104.148.30.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
-  - {name: United States 🇺🇸 9, server: 141.101.115.115, port: 443, type: vmess, cipher: auto,uuid: 8c35bef3-d51f-41ab-ac87-7b053410495b, alterId: 64, tls: true, network: ws,ws-path: /, Host: google.com}
-  - {name: United States 🇺🇸 10, server: notoneless.ml, port: 443, type: vmess, cipher: auto,uuid: 0e27a7e2-d86c-11ea-91c3-560002ebd632, alterId: 46, tls: true, network: ws,ws-path: /68UCSeIY/, Host: notoneless.ml}
-  - {name: United States 🇺🇸 11, server: 154.16.169.3, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 12, server: 192.34.83.234, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 13, server: 107.175.104.82, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 14, server: 192.40.59.229, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 15, server: 104.244.208.101, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 16, server: 207.244.84.42, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 17, server: 192.154.255.54, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 18, server: 74.119.146.117, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 19, server: 148.72.169.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 20, server: 209.216.92.215, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 21, server: 172.83.42.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 22, server: 63.141.248.181, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 23, server: 212.102.44.98, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 24, server: 198.147.22.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 25, server: 66.115.175.37, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 26, server: 66.115.177.156, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 27, server: 212.102.40.81, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 28, server: 198.147.22.133, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 29, server: 45.43.14.83, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 30, server: 66.115.154.133, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 31, server: 45.89.173.203, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 32, server: 184.170.243.197, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 33, server: 89.187.187.81, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 34, server: 104.148.30.87, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
-  - {name: United States 🇺🇸 35, server: 64.190.90.123, port: 38827, type: vmess, cipher: auto,uuid: 26d0acc2-da1e-11ea-858e-26dac50ad90b, alterId: 16, network: tcp }
-  - {name: United States 🇺🇸 36, server: 69.30.201.82, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 37, server: 45.79.96.104, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 38, server: 45.79.90.66, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 39, server: 45.79.90.66, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 40, server: 45.33.104.162, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: United States 🇺🇸 41, server: 154.16.168.184, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 42, server: 192.34.83.232, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 43, server: 74.119.146.131, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 44, server: 74.119.146.183, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 45, server: 66.11.124.140, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 46, server: 172.241.114.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 47, server: 212.102.44.83, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 48, server: 199.10.64.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 49, server: 199.10.64.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 50, server: 204.12.208.115, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 51, server: 89.187.187.147, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 52, server: 184.170.243.211, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 53, server: 184.170.243.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 54, server: 172.83.42.85, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 55, server: 172.83.42.158, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 56, server: 207.244.67.149, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 57, server: 84.17.35.91, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 58, server: 198.147.22.195, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 59, server: 199.58.187.69, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 60, server: 172.98.87.35, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 61, server: 209.58.128.50, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 62, server: 148.72.174.48, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
-  - {name: United States 🇺🇸 63, server: 148.72.174.46, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
-  - {name: United States 🇺🇸 64, server: 97.64.83.205, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: HA3nsoB0Gn4C}
-  - {name: United States 🇺🇸 65, server: c.kitslabs.com, port: 443, type: vmess, cipher: chacha20-poly1305,uuid: 95137857-70fa-4ac8-8f90-4220aeb662cf, alterId: 0, network: ws,ws-path: /v2, Host: ,tls: true }
-  - {name: United States 🇺🇸 66, server: h2.coding996.com, port: 443, type: vmess, uuid: 2e199875-f955-45f1-8eee-d843edc3d618, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: h2.coding996.com}}
-  - {name: United States 🇺🇸 67, server: 142.4.108.232, port: 443, type: vmess, uuid: 95ccdad7-0be4-4d76-a5bd-84aa2701ca08, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.693845241.xyz}}
-  - {name: United States 🇺🇸 68, server: 142.4.108.229, port: 443, type: vmess, uuid: 47d03581-c5c9-4764-bbd6-d4e3733b2f7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.085298926.xyz}}
-  - {name: United States 🇺🇸 69, server: 23.225.57.202, port: 443, type: vmess, uuid: e2266c08-96aa-4ccb-b918-163db05abffa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: United States 🇺🇸 70, server: us-ltm.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
-  - {name: United States 🇺🇸 71, server: us-nyc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
-  - {name: United States 🇺🇸 72, server: us-bos.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 1, server: 172.93.153.150, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 2, server: 23.105.160.138, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 3, server: 192.154.253.67, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 4, server: 198.147.22.167, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq, udp: true}
+  - {name: United States 🇺🇸 5, server: 63.141.248.181, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 6, server: 198.147.22.211, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 7, server: 212.102.40.81, port: 34007, type: ss, cipher: aes-256-gcm, password: Ant36ph4AX8fHx59fUTLxMqq}
+  - {name: United States 🇺🇸 8, server: 45.33.104.162, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: United States 🇺🇸 9, server: 154.16.168.184, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN}
+  - {name: United States 🇺🇸 10, server: 74.119.146.131, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 11, server: 172.241.114.87, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
+  - {name: United States 🇺🇸 12, server: 199.10.64.67, port: 34651, type: ss, cipher: aes-256-gcm, password: fQrrhJUGWCGRfgvJgPDDX5sN, udp: true}
 
  #endregion United States
  #region Vietnam
@@ -867,67 +807,6 @@ proxy-groups:
       - United States 🇺🇸 10
       - United States 🇺🇸 11
       - United States 🇺🇸 12
-      - United States 🇺🇸 13
-      - United States 🇺🇸 14
-      - United States 🇺🇸 15
-      - United States 🇺🇸 16
-      - United States 🇺🇸 17
-      - United States 🇺🇸 18
-      - United States 🇺🇸 19
-      - United States 🇺🇸 20
-      - United States 🇺🇸 21
-      - United States 🇺🇸 22
-      - United States 🇺🇸 23
-      - United States 🇺🇸 24
-      - United States 🇺🇸 25
-      - United States 🇺🇸 26
-      - United States 🇺🇸 27
-      - United States 🇺🇸 28
-      - United States 🇺🇸 29
-      - United States 🇺🇸 30
-      - United States 🇺🇸 31
-      - United States 🇺🇸 32
-      - United States 🇺🇸 33
-      - United States 🇺🇸 34
-      - United States 🇺🇸 35
-      - United States 🇺🇸 36
-      - United States 🇺🇸 37
-      - United States 🇺🇸 38
-      - United States 🇺🇸 39
-      - United States 🇺🇸 40
-      - United States 🇺🇸 40
-      - United States 🇺🇸 41
-      - United States 🇺🇸 42
-      - United States 🇺🇸 43
-      - United States 🇺🇸 44
-      - United States 🇺🇸 45
-      - United States 🇺🇸 46
-      - United States 🇺🇸 47
-      - United States 🇺🇸 48
-      - United States 🇺🇸 49
-      - United States 🇺🇸 50
-      - United States 🇺🇸 51
-      - United States 🇺🇸 52
-      - United States 🇺🇸 53
-      - United States 🇺🇸 54
-      - United States 🇺🇸 55
-      - United States 🇺🇸 56
-      - United States 🇺🇸 57
-      - United States 🇺🇸 58
-      - United States 🇺🇸 59
-      - United States 🇺🇸 60
-      - United States 🇺🇸 61
-      - United States 🇺🇸 62
-      - United States 🇺🇸 63
-      - United States 🇺🇸 64
-      - United States 🇺🇸 65
-      - United States 🇺🇸 66
-      - United States 🇺🇸 67
-      - United States 🇺🇸 68
-      - United States 🇺🇸 69
-      - United States 🇺🇸 70
-      - United States 🇺🇸 71
-      - United States 🇺🇸 72
 
     #Vietnam
       - Vietnam 🇻🇳 1
