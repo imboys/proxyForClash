@@ -64,6 +64,8 @@ proxies:
 
  #region Chile
  #region China
+  - {name: China 🇨🇳 1, server: ss-33.ssrsub.one, port: 8083, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
+  - {name: China 🇨🇳 2, server: ss-34.ssrsub.one, port: 8083, type: ss, cipher: xchacha20-ietf-poly1305, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: http, host: data.video.qiyi.com}}
  #region Colombia
   - {name: Colombia 🇨🇴 1, server: co-bog.wbnet.cf, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
  #region Costa Rica
@@ -118,6 +120,7 @@ proxies:
   - {name: Hong Kong 🇭🇰 1, server: 212.102.42.199, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: Hong Kong 🇭🇰 2, server: 84.17.57.68, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: Hong Kong 🇭🇰 3, server: hk-hkg.wbnet.cf, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+
  #region Hungary
   - {name: Hungary 🇭🇺 1, server: 37.120.144.243, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: Hungary 🇭🇺 2, server: 37.120.144.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
@@ -417,8 +420,11 @@ proxy-groups:
       - Canada 🇨🇦 17
       - Canada 🇨🇦 18
       - Canada 🇨🇦 19
+
     #Chile 
-    #China 
+    #China
+      - China 🇨🇳 1
+      - China 🇨🇳 2
     #Colombia
       - Colombia 🇨🇴 1
     #Costa Rica 
