@@ -1,6 +1,6 @@
 mixed-port: 7890
 allow-lan: false
-mode: Global
+mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:9090
 proxies:
